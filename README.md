@@ -1,12 +1,12 @@
-GAN to Generate Numbers Like in the MNIST Dataset
+<b>GAN to Generate Numbers Like in the MNIST Dataset</b>
 
 This repository contains an implementation of a Generative Adversarial Network (GAN) designed to generate realistic handwritten digits similar to those in the MNIST dataset. The project demonstrates how GANs can learn to create images from scratch by training a generator and a discriminator in an adversarial setup.
 
-Features
+<b>Features</b>
 
 Trains on the MNIST dataset of handwritten digits.
 
-Generates 
+<b>Generates </b>
 
 28
 ×
@@ -21,14 +21,14 @@ Batch normalization in the generator.
 Leaky ReLU activations in the discriminator.
 Binary cross-entropy loss with logits for stability.
 
-Requirements
+<b>Requirements</b>
 
 Python 3.8+
 PyTorch
 Torchvision
 Matplotlib (for visualization)
 
-How It Works
+<b>How It Works</b>
 
 Generator: Creates synthetic images from random noise vectors.
 Discriminator: Differentiates between real and generated images.
